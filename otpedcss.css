@@ -1,0 +1,252 @@
+
+html {
+	font-size: 100%;
+}
+
+body {
+	margin: 0px;
+	height: 100%;
+}
+
+#topnavwrap {
+	height: 8%;
+	position:absolute;
+}
+
+#topnavbar {
+	width: 100%;
+	background-color: #1175a8;
+	color: #ffffff;
+	padding: 1% 0;
+}
+
+#mainarea {
+	width:80%;
+	height: 800px;
+	margin: auto;
+	background-color: #DDDDDD;
+	position:relative;
+	top: 20px;
+	border: 1px solid #555555;
+}
+
+
+
+
+
+#controlbox {
+	background-color: #c8e7f7;
+	margin: 0px;
+	color: #1175a8;
+	width: 26%;
+	height:600px;
+	position:absolute;
+	left:0px;
+}
+#cb-head {
+	margin: 0px 0px 0px 0px;
+}
+.boxhead {
+	color: #1175a8;
+	font-size:1.4em;
+	position:relative;
+	top:20px;
+	left: 20px;
+}
+.formarea {
+	position:relative;
+	left: 20px;
+	top: 20px;
+	margin: 0px;
+}
+.formarea p {
+	width:90%;
+}
+
+#displaybox {
+	margin: 0px 0px 0px 0px;
+	width: 73%;
+	height:600px;
+	background-color: #ffffff;
+	position: absolute;
+	right:0px;
+}
+#displaybox-comp {
+	margin: 0px 0px 0px 0px;
+	width: 73%;
+	height:600px;
+	background-color: #ffffff;
+	position: absolute;
+	right:0px;
+	display: none;
+}
+
+#dispbox-head {
+	position:relative;
+	left: 20px;
+	top: 20px;
+	color: #333333;
+	font-size: 1.4em;
+}
+#brandattrbox {
+	position:relative;
+	left: 20px;
+	top: 20px;
+}
+
+
+#topnavlist li {
+	display: inline;
+	font-size: 1.5vw;
+}
+#topnavlist a {
+	text-decoration:none;
+	color: #ffffff;
+}
+
+
+.attrbox {
+	margin: 40px;
+	
+}
+#subsecsform {
+	float:left;
+}
+#sublinksform {
+	float:right;
+}
+#secsubdisparea {
+	float:none;
+	position:relative;
+	top:10px;
+}
+#wpnamearea {
+	float:left;
+}
+#wpsizearea {
+	float:right;
+}
+
+
+.otped-sel {
+	width:200px;
+}
+.otped-sel option {
+	width:200px;
+}
+
+#seclinksls {
+	width:200px;
+}
+#subsecls {
+	width:200px;
+}
+#secls {
+	width:200px;
+}
+
+#seccont {
+	height: 140px;
+	width:600px;
+}
+#seccontarea {
+	position:relative;
+	top:10px;
+}
+
+
+
+#overlay {
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:0px;
+	top:0px;
+	background:rgba(0,0,0,0.3);
+	display:none;
+}
+#sideeditbox {
+	width:60%;
+	height: 400px;
+	padding: 2% 0;
+	margin: auto;
+	background-color:#ffffff;
+	opacity:0.9;
+}
+#linkseditarea {
+	border: 2px solid #333333;
+	border-radius: 20px;
+	background:rgba(255,255,255,0.9);
+	width: 800px;
+	height: 500px;
+	display:none;
+}
+#saveremlink {
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+.compillangbox {
+	background-color: #99AAFF;
+	width: 180px;
+	padding: 5px;
+	height: 220px;
+	color: #3344DD;
+	font-size: 0.8em;
+	float: left;
+	margin: 2px;
+}
+.compillangbox-h {
+	font-size: 1.2em;
+}
+
+#wpapereditarea {
+	display: none;
+}
+#wpapername {
+	width: 80px;
+}
+#wpeditnamearea {
+	display: none;
+}
+#wpnameditbut {
+	display: none;
+}
+#photgalleditarea {
+	display: none;
+}
+
+#compilsectioneditor-container {
+	display: none;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+#compilsectioneditor {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0px;
+	width: 100%;
+	background-color: #ffffff;
+	opacity: 0.7;
+	z-index: 100;
+}
+.secedit-checkbox {
+}
+.secselcolumn {
+	position:relative;
+	top:12px;
+	left: 12px;
+	float: left;
+}
+
+#seceditclose-but {
+	font-weight: bold;
+	padding: 18px;
+	opacity: 1.0;
+}

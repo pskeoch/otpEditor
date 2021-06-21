@@ -1,0 +1,39 @@
+plan
+-------------
+-build test xml, nearly done. Main structures working
+-work through help guide for structure, sequentially
+
+
+issues
+------------
+-special characters, need to test xml creation with all titles, also need to work out display
+	-question - does xml creation break if output to file rather than to webpage?
+
+-Where is colors.txt file? Can't find example to copy
+
+-consolidate save functions in one php file
+
+-do I need to check parent_is_language_id to be safe?
+
+-Seems to be odd character in section 1313 content text. Not clear what is issue or how prevalent in database
+
+- Languages attribute display not working for Volvo, other elements also seem problem with Volvo
+
+- image in section table?
+
+- security issue having form POST names and values in open HTML?
+
+- SPanish n tilde character causing problems?
+
+- Problem with character encoding in mysql database - workaround in PHP/javascript or re-encode database?
+https://www.toptal.com/php/a-utf-8-primer-for-php-and-mysql
+
+- assume picture galleries/wallpaper sections only occur on the top hierarchy?
+
+- email links not working, don't seem to be working in original? Need change to explicit "mailto"?
+
+- In brands table and colors.txt there is "htmlColorBg", but is not referenced in Editor help guide and Jaguar does not have a value for this
+
+- want visible navigation guide to tell you where you are in the structure
+
+- xml procedure currently goes 5 levels deep. What if more required?
